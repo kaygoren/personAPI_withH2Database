@@ -1,9 +1,8 @@
 package com.tutorial.h2.h2Integration.Entity;
 
-import org.springframework.data.annotation.Id;
-
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 
 @Entity
@@ -15,6 +14,8 @@ public class Person {
     private String name;
     private int age;
     private String emailId;
+
+
 
     public void setId(int id) {
         this.id = id;
